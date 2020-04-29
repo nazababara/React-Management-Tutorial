@@ -75,7 +75,7 @@ class App extends Component {
             this.state.customers ?
               this.state.customers.map(c => {
                 return(
-                  <Customer key={c.id} id={c.id} name={c.name} image={c.image} birth={c.birth} gender={c.gender} job={c.job} />
+                  <Customer key={c.id} id={c.id} name={c.name} image={c.image} birth={c.birthday} gender={c.gender} job={c.job} />
                 )
               }) :
               <TableRow>
